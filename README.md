@@ -1,3 +1,6 @@
+
+![logo-interligia-preto](https://github.com/user-attachments/assets/66634014-b7ac-497c-8a58-cf15185a6291)
+
 # Instalador Docker Swarm, Traefik e Portainer
 
 Este repositório contém um script de instalação automatizado para configurar um ambiente Docker Swarm com o Traefik como proxy reverso e Portainer para gerenciamento de containers.
@@ -16,27 +19,32 @@ Este repositório contém um script de instalação automatizado para configurar
   - Portainer: Ferramenta de gerenciamento de containers Docker com integração ao Traefik.
 
 ## Como usar
+### 1. Instalando o Git
 
-### 1. Clone o repositório
+```bash
+sudo apt-get update && sudo apt-get install -y git
+``
+
+### 2. Clone o repositório
 
 ```bash
 git clone https://github.com/InterligIA/Instalador-Docker-Swarm-Traefik-e-Portainer.git
 cd Instalador-Docker-Swarm-Traefik-e-Portainer
 ```
 
-### 2. Torne o script executável
+### 3. Torne o script executável
 
 ```bash
 chmod +x install_docker_swarm.sh
 ```
 
-### 3. Execute o script
+### 4. Execute o script
 
 ```bash
 ./install_docker_swarm.sh
 ```
 
-### 4. Preencha as informações solicitadas
+### 5. Preencha as informações solicitadas
 
 O script solicitará as seguintes informações:
 
@@ -44,11 +52,11 @@ O script solicitará as seguintes informações:
 - 🌐 **Domínio do Portainer**: O domínio onde o Portainer estará acessível.
 - 🖥️ **IP do Manager**: IP do servidor que será o manager do Docker Swarm.
 
-### 5. Confirmação de dados
+### 6. Confirmação de dados
 
 Revise as informações inseridas e confirme para prosseguir com a instalação.
 
-### 6. Acesso
+### 7. Acesso
 
 - **Portainer**: Acesse o Portainer via [http://portainer.seudominio.com](http://portainer.seudominio.com) (substitua pelo domínio que você configurou).
 - **Traefik**: O painel do Traefik estará disponível na porta 8080 do seu servidor.
