@@ -23,7 +23,7 @@ Este repositório contém um script de instalação automatizado para configurar
 
 ```bash
 sudo apt-get update && sudo apt-get install -y git
-``
+```
 
 ### 2. Clone o repositório
 
