@@ -20,7 +20,7 @@ Este repositório contém um script de instalação automatizado para configurar
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/wnegreiros/instalador-docker-swarm.git
+git clone https://github.com/InterligIA/Instalador-Docker-Swarm-Traefik-e-Portainer.git
 cd instalador-docker-swarm
 ```
 
