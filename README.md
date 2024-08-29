@@ -21,7 +21,7 @@ Este repositório contém um script de instalação automatizado para configurar
 
 ```bash
 git clone https://github.com/InterligIA/Instalador-Docker-Swarm-Traefik-e-Portainer.git
-cd instalador-docker-swarm
+cd Instalador-Docker-Swarm-Traefik-e-Portainer
 ```
 
 ### 2. Torne o script executável
