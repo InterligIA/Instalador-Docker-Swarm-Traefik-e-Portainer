@@ -9,7 +9,7 @@ echo -e "\e[32mClonando o repositório...\e[0m"
 git clone https://github.com/InterligIA/Instalador-Docker-Swarm-Traefik-e-Portainer.git
 
 # Navega para o diretório do repositório
-cd instalador-docker-swarm
+cd Instalador-Docker-Swarm-Traefik-e-Portainer
 
 # Torna o script de instalação executável
 echo -e "\e[32mTornando o script de instalação executável...\e[0m"
