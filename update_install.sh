@@ -6,7 +6,7 @@ sudo apt update && sudo apt install -y git
 
 # Clona o repositório do GitHub
 echo -e "\e[32mClonando o repositório...\e[0m"
-git clone https://github.com/wnegreiros/instalador-docker-swarm.git
+git clone https://github.com/InterligIA/Instalador-Docker-Swarm-Traefik-e-Portainer.git
 
 # Navega para o diretório do repositório
 cd instalador-docker-swarm
